@@ -1,0 +1,171 @@
+
+
+@media (max-width: 700px){
+  
+  #nav-container{
+    height: 30%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #nav-container h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #nav-container ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 8vw;
+    width: 90vw;
+    margin: 0;
+  }
+
+  #nav-container ul h3{
+    font-size: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 2%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #hero-section{
+    width: 100vw;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  #left button{
+    font-size: 3.2vw;
+  }
+
+  #left{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    width: 100vw;
+  }
+
+  #left h1{
+    font-size: 8vw;
+    margin-top: 40px;
+    margin-bottom: 3vw;
+  }
+
+  #left h3{
+    width: 90vw;
+    font-size: 4vw;
+    text-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  #right img{
+    width: 50vw;
+  }
+
+/* ----------------------------------------project-section------------------------- */
+
+  .Projects-title h1{
+    font-size: 5vw;
+  }
+
+  #projects-card-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #projects-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin: 0;
+  }
+
+  #projects-card-top{
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  #projects-card-top h3{
+    font-size: 3vw;
+  }
+
+  #projects-card-top img {
+    width: 3vw;
+  }
+  #projects-card-top i{
+    font-size: 3vw;
+  }
+
+  /* ------------------------------------------------skills------------------ */
+
+  .skills-title h1{
+    font-size: 5vw;
+  }
+
+
+  .image-container{
+    margin: 0 2vw;
+    width: 100vw;
+  }
+
+  /* -------------------------------------------contact---------------------------- */
+
+  #contact-title{
+    font-size: 5vw;
+  }
+
+  .main-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin: 0 3vw;
+  }
+
+  .contact-elements input{
+    width: 70vw;
+    font-size: 3vw;
+  }
+
+  .contact-elements textarea{
+    width: 70vw;
+  }
+
+  /* ------------------------------------------------footer------------------------------ */
+
+  footer{
+    height: 10vh;
+  }
+
+  footer p{
+    font-size: 2.6vw;
+  }
+
+  footer img{
+    width: 2.6vw;
+  }
+
+}
